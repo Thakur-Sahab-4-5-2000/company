@@ -7,7 +7,7 @@ const Trusted = () => {
 
   useEffect(() => {
     setBox(document.querySelector(".product-container"));
-  }, {});
+  }, []);
 
   const btnpressprev = () => {
     let width = box?.clientWidth;
