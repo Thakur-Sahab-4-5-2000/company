@@ -1,0 +1,149 @@
+.item {
+  margin-left: 80px;
+  border: 1px solid #dddddd;
+  padding: 20px;
+  border-radius: 10px;
+  background: white;
+  &:hover {
+    border: 1px solid #f53838;
+  }
+  .person {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: white;
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 50px;
+      height: 50px;
+      background: white;
+    }
+    .info {
+      background: white;
+      .name {
+        background: white;
+        color: #0b132a;
+        font-weight: 700;
+        font-size: 18px;
+        width: 142.02px;
+        height: 18px;
+      }
+      .city {
+        background: white;
+        width: 109.36px;
+        height: 14px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 30px;
+        color: #4f5665;
+      }
+    }
+    .rating {
+      background: white;
+    }
+  }
+  .descItem {
+    width: 340px;
+    height: 100px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #0b132a;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    background: white;
+  }
+}
+
+@media screen and (max-width: 1137px) {
+  .item {
+    margin-left: 80px;
+    border: 1px solid #dddddd;
+    padding: 20px;
+    border-radius: 10px;
+    background: white;
+    &:hover {
+      border: 1px solid #f53838;
+    }
+    .person {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      background: white;
+      display: flex;
+      align-items: center;
+
+      img {
+        width: 50px;
+        height: 50px;
+        background: white;
+      }
+      .info {
+        background: white;
+        .name {
+          background: white;
+          color: #0b132a;
+          font-weight: 700;
+          font-size: 14px;
+          width: 142.02px;
+          height: 18px;
+        }
+        .city {
+          background: white;
+          width: 109.36px;
+          height: 12px;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 30px;
+          color: #4f5665;
+        }
+      }
+      .rating {
+        background: white;
+      }
+    }
+    .descItem {
+      width: 340px;
+      height: 100px;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 30px;
+      color: #0b132a;
+      margin-top: 10px;
+      margin-bottom: 50px;
+      background: white;
+    }
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 420px) {
+  .item {
+    width: auto !important;
+    img {
+      width: 120px !important;
+      height: 120px !important;
+    }
+    .info {
+      .name {
+        font-size: 35px !important;
+        width: 209px !important;
+        height: 50px !important;
+      }
+      .city {
+        height: 25% !important;
+        width: 220px !important;
+        font-size: 30px !important;
+      }
+    }
+    .rating {
+      font-size: 30px !important;
+    }
+    .descItem {
+      width: 800px !important;
+      font-size: 30px !important;
+      line-height: 60px !important;
+    }
+  }
+}
